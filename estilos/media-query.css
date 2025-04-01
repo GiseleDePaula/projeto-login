@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoits
+
+  Pequenas telas: até 600px
+  Celular: de 600px até 780px
+  Tablet: de 780px até 992px 
+  Desktop: de 992px até 1200px
+  Grandes telas: acima de 1200px
+  */
+
+  @media screen and (min-width: 768px) and (max-width: 992px){
+    body {
+        background-image: linear-gradient(to top, #ee82ee, #0000ff);
+    }
+
+    #login {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    #imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #formulario {
+        float: right;
+        width: 60%;
+        
+    }
+     
+    h1 {
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+
+    p {
+        text-align: justify;
+        padding-bottom: 10px;
+    }
+
+    
+  }
+
+
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+    body {
+        background-image: linear-gradient(to top, #ee82ee, #0000ff);
+    }
+
+    #login {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #formulario {
+        float: left;
+        width: 50%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+     
+    p {
+        text-align: justify;
+        padding-bottom: 10px;
+    }
+    
+  }
+
+  @media screen and (min-width: 1200px){
+    body {
+        background-image: linear-gradient(to top, #ee82ee, #0000ff);
+    }
+
+    #login {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    #imagem {
+        background-position: center center;
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+    
+  }
