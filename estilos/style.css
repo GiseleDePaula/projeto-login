@@ -54,3 +54,14 @@ main {
     padding: 10px;
 }
 
+#formulario > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#formulario > p {
+    text-align: justify;
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
