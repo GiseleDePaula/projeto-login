@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-/* Typical Device Breakpoits
+/* Alguns pontos de interrupção comuns de dispositivos para 2025 incluem: 
+    Celular (retrato) : 320–480 pixels
+    Móvel (paisagem) : 481–600 pixels
+    Tablet (retrato) : 601–768 pixels
+    Tablet (paisagem) : 769–1024 pixels
+    Desktop ou laptop pequeno : 1025–1280 pixels
+    Área de trabalho grande : 1281–1440 pixels
+
+ Typical Device Breakpoits 
 
   Pequenas telas: até 600px
   Celular: de 600px até 780px
@@ -16,7 +24,7 @@
 
     #login {
         width: 90vw;
-        height: 60vh;
+        height: 70%;
     }
 
     #imagem {
@@ -29,6 +37,7 @@
     #formulario {
         float: right;
         width: 60%;
+        height: 550px;
         
     }
      
@@ -47,13 +56,17 @@
   }
 
 
-  @media screen and (min-width: 1025px) and (max-width: 1280px){
+  @media screen and (min-width: 1025px){
     body {
         background-image: linear-gradient(to top, #ee82ee, #2f2ff7ab);
     }
 
     #login {
-        width: 950px;
+        width: 1000px;
+        height: 500px;
+
+        transition: width .3s, height .3s;
+        transition-timing-function: ease;
         
     }
 
@@ -83,33 +96,4 @@
     
   }
 
-  @media screen and (min-width: 1281px){
-    body {
-        background-image: linear-gradient(to top, #ee82ee, #2f2ff7ab);
-    }
-
-    #login {
-        width: 90vw;
-        height: 80vh;
-        
-    }
-
-    #imagem {
-        background-position: center center;
-        float: right;
-        width: 50%;
-        height: 100%;
-        border-radius: 0px 20px 20px 0px;
-    }
-
-    #formulario > h1 {
-        text-align: center;
-        font-size: 3em;
-    }
-
-    #formulario > p {
-        text-align: justify;
-        font-size: 2em;
-    }
-    
-  }
+ 
