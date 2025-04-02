@@ -18,13 +18,13 @@
   */
 
   @media screen and (min-width: 769px) and (max-width: 1024px){
-    body {
+    body { /* CONFIGURAÇÂO PARA TABLET */
         background-image: linear-gradient(to top, #ee82ee, #2f2ff7ab);
     }
 
     #login {
         width: 90vw;
-        height: 70%;
+        height: 330px;
     }
 
     #imagem {
@@ -47,8 +47,9 @@
         padding-bottom: 10px;
     }
 
-    p {
+    #formulario > p {
         text-align: justify;
+        font-size: 1.1em;
         padding-bottom: 10px;
     }
 
@@ -57,13 +58,13 @@
 
 
   @media screen and (min-width: 1025px){
-    body {
+    body {/* COFIGURAÇÔE PARA DESKTOP */
         background-image: linear-gradient(to top, #ee82ee, #2f2ff7ab);
     }
 
     #login {
         width: 1000px;
-        height: 500px;
+        height: 380px;
 
         transition: width .3s, height .3s;
         transition-timing-function: ease;
@@ -75,6 +76,7 @@
         width: 50%;
         height: 100%;
         border-radius: 0px 20px 20px 0px;
+        background-position-y: bottom;
     }
 
     #formulario {
@@ -90,7 +92,7 @@
      
     #formulario > p {
         text-align: justify;
-        font-size: 1.2em;
+        font-size: 1.6em;
         padding-bottom: 10px;
     }
     
